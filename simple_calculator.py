@@ -7,8 +7,8 @@ class Calculator:
 	v = variabel_nomor_1 - b
         return v
 
-    def multiply(self, a, b):
-        return a * b
+    def multiply(self, variabel_abcccdd, b):
+        return variabel_abcccdd * b
 
     def divide(self, a, b):
         if b == 0:
