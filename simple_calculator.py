@@ -2,8 +2,10 @@ class Calculator:
     def add(self, a, b):
         return a + b
 
-    def subtract(self, a, b):
-        return a - b
+    def subtract(self, variabel_nomor_1, b):
+	// katanya biar error jadi diginiin aja siapatau jadi error yaudahlah ya
+	v = variabel_nomor_1 - b
+        return v
 
     def multiply(self, a, b):
         return a * b
