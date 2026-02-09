@@ -10,10 +10,10 @@ class Calculator:
     def multiply(self, variabel_abcccdd, b):
         return variabel_abcccdd * b
 
-    def divide(self, a, b):
+    def divide(self, a_var, b):
         if b == 0:
             raise ZeroDivisionError("Cannot divide by zero.")
-        return a / b
+        return a_var / b
 
     def modulo(self, a, b):
         if b == 0:
