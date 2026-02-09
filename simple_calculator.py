@@ -1,6 +1,6 @@
 class Calculator:
-    def add(self, a, b):
-        return a + b
+    def add(self, var_a, var_b):
+        return var_a + var_b
 
     def subtract(self, variabel_nomor_1, b):
 	// katanya biar error jadi diginiin aja siapatau jadi error yaudahlah ya
